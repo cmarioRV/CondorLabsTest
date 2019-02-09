@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (4.8.1)
+  - ModelMapper (9.0.1):
+    - ModelMapper/Core (= 9.0.1)
+  - ModelMapper/Core (9.0.1)
+  - Moya (12.0.1):
+    - Moya/Core (= 12.0.1)
+  - Moya-ModelMapper (8.0.0):
+    - Moya-ModelMapper/Core (= 8.0.0)
+  - Moya-ModelMapper/Core (8.0.0):
+    - ModelMapper
+    - Moya (~> 12.0)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - Result (4.1.0)
+  - Swinject (2.5.0)
+
+DEPENDENCIES:
+  - Moya
+  - Moya-ModelMapper
+  - Swinject
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - ModelMapper
+    - Moya
+    - Moya-ModelMapper
+    - Result
+    - Swinject
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  ModelMapper: 89a61430a75e6265040dc9555ab1feddeb25b986
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  Moya-ModelMapper: 9032a62301f6489405d56b7bb4e1f54944638fe3
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  Swinject: 82cdb851f63f91bba974e3eca1d69780f2f7677e
+
+PODFILE CHECKSUM: acd3b0479d63fd7f3c72ccdd3d25c2264a7e7bc0
+
+COCOAPODS: 1.6.0
